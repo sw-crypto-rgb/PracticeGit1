@@ -17,6 +17,7 @@ test('BasicStart with playwright', async ({ page }) => {
 
     console.log('My First Test');
     console.log("Practice 3rd push from git hub actions");
+    console.log("Practice 4th push from git hub actions");
 });
 
 test("My2nd Test script", ()=>{
