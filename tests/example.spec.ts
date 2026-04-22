@@ -5,6 +5,7 @@ test('has title', async ({ page }) => {
 
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Playwright/);
+  console.log("Practice 2nd push from git hub actions")
 });
 
 test('get started link', async ({ page }) => {
