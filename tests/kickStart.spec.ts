@@ -16,6 +16,7 @@ test('BasicStart with playwright', async ({ page }) => {
     await page.getByRole('button', { name: 'Google apps' }).click();
 
     console.log('My First Test');
+    console.log("Practice 3rd push from git hub actions");
 });
 
 test("My2nd Test script", ()=>{
