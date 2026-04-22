@@ -10,4 +10,5 @@ test('Git Push Practice', async ({ page }) => {
         await page.getByRole('textbox', { name: 'Email or phone' }).press('Enter');
         await expect(page).toHaveURL('https://www.google.com/');
         console.log('Git Push Practice');
+        console.log('Git Push Practice 2');
 });
